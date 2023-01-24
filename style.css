@@ -1,0 +1,136 @@
+body{
+    background:linear-gradient(#f3904f,#3b4371); 
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.3em;
+}
+header{
+    background-color: rgb(241, 222, 169);
+}
+footer{
+    background-color: rgb(241, 222, 169);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+    footer,
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    }  
+.container{
+    display: grid;
+    grid-template-columns: 750px 419px;
+    height: auto;
+    }
+.accueil-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+.titre1{
+    display: flex;
+    justify-content: center;
+    }
+.intro{
+    padding: 0px 50px 0px 50px;
+    text-align: center;
+    flex-wrap: wrap;
+    }
+.cta-a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: center;
+    background: linear-gradient(#8e86b5, #acaeed);
+    border-radius: 50px;
+    padding: 5px 10px;
+    width: 170px;
+    text-align: center;
+    position: relative;
+    left: 260px;
+    bottom: 10px;
+}
+.cta-a:hover {
+    background: linear-gradient(#696484, #8788ba);
+    text-decoration: none;
+    }
+#lien-nav:hover {
+    background:linear-gradient(#e8cbc0,#636fa4)
+    }
+.portrait{
+        height: 350px;
+        width: 360px;
+        position: relative;
+        top:30px;
+        left:250px
+        }
+
+.accueil-photos{
+    display:flex;
+    justify-content: center;
+    }
+.titre2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+.mini{
+    height: 127px;
+    width: 129px;
+        }
+.multi-portrait{
+            display: grid;
+            grid-template-columns: 120px 120px 120px 120px 120px ;
+            grid-template-rows: 123px 120px;
+            row-gap: 10px;
+            column-gap: 20px;       
+        }
+.grid{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        }
+#exp{
+        color:black;
+        position: relative;
+        width: 500px;;
+        }
+.titre3 {
+        color:#462a8a;
+        }
+.titre4 {
+        color:#462a8a;
+        }
+.listing{
+        color:black;
+        }
+.cta-b:hover {
+        background: linear-gradient(#696484, #8788ba);
+        }
+.cta-b{
+        background: linear-gradient(#8e86b5, #acaeed);
+        border-radius: 50px;
+        border-radius: 50px;
+        padding: 5px 10px;
+        text-align: center;
+        width: 170px;
+        position: relative;
+        left: 250px;
+        bottom: 100px;
+            }
+.para{
+    width: 650px;
+    border-right:3px black solid  ;
+    border-bottom: 3px black solid;
+    position: relative;
+    margin-left: 720px;
+}
+.aprop{
+    background:linear-gradient(#A770EF,#cf8bf3,#FDB99B)
+    
+    
+}
